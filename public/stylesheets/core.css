@@ -36,7 +36,7 @@ tfoot th { font-weight: normal; font-size: 0.75em;}
 .default-form label { float: left; text-align: right; width: 150px; margin-right: 10px; font-weight: bold; color: #678; }
 .default-form input[type=text], 
 .default-form select { width: 200px; height: 1.7em; }
-.default-form h3 { border-bottom: 1px solid #678; padding-bottom: .5em; margin-bottom: 1em; }
+.default-form h3, .device-information h3 { border-bottom: 1px solid #678; padding-bottom: .5em; margin-bottom: 1em; }
 
 /* default: forms > List of radio buttons */
 .default-form dl.radioList { overflow: hidden; }
@@ -65,9 +65,13 @@ tfoot th { font-weight: normal; font-size: 0.75em;}
 /* default : forms > field errors */
 .default-form .field-error input {background:#ff7373; border: 1px solid #ff0700;}
 
+/*device-information */
+.device-information { clear: both; margin-top: 3em; }
+
 /* default : forms > help text */
 .default-form .help-text { font-style: italic; width: 100px; float: right; display: block;}
 .default-form .help-text-container { float: left; width: 150px; text-align: right; margin-right:10px; }
+
 /* page-container */
 .page-container { margin: 0 auto; width: 960px; }
 
@@ -110,8 +114,8 @@ ul.tab-handles { border-left: 1px solid #678; margin-bottom: 0; position: relati
 /* CONTENT SPECIFIC STYLES*/
 
 /* table listing page */
-td.edit, th.edit { text-align: right;  }
-td.edit a {  }
+td.view-edit, th.edit { text-align: right;  }
+td.view-edit a {  }
 td.checkbox { text-align: center;}
 
 /* profiles wall page */
@@ -139,7 +143,7 @@ td.checkbox { text-align: center;}
 .profiles-list-item { overflow: hidden; background-color: #fff; padding: 6px 6px 20px; }
 .profiles-list-item .header { width:100%; position: relative; float:left;}
 .profiles-list-item h3 { margin: 0 10px; float:left; padding:0; }
-.profiles-list-item .edit { float:right;margin:0;padding:0  }
+.profiles-list-item .view-edit { float:right;margin:0;padding:0  }
 .profiles-list-item .checkbox { float:left;margin:0;padding:0;  }
 .profiles-list-item .photo { position: absolute; top: 5px; left: 5px; }
 .profiles-list-item .details p { margin-bottom: 0; clear: both; border-top: 1px solid #678; padding-top: .2em; }
